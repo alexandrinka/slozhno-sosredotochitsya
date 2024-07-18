@@ -162,6 +162,7 @@
 
 .section__article-title {
   font-size: 18px;
+  margin-block-end: 10px;
 }
 
 .section__articles-list_what,
@@ -200,10 +201,6 @@
   object-position: center;
   block-size: 100%;
   inline-size: 100%;
-}
-
-.section__article-title {
-  margin-block-end: 10px;
 }
 
 .section__article-text {
@@ -313,15 +310,15 @@
     grid-template-rows: none;
   }
 
-  .section__gallery{
+  .section__gallery {
     gap: 10px;
   }
-  
-  .section__articles-list_gallery{
+
+  .section__articles-list_gallery {
     display: block;
   }
 
-  .section__article-item_gallery{
+  .section__article-item_gallery {
     margin-block-end: 5px;
   }
 }
