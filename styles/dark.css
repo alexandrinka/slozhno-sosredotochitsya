@@ -1,12 +1,8 @@
 .page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --accent-color: #ff0070;
+  --title-color: #db00ff;
   --background-image: url("../images/cover-image-dark.png");
   --background-color: #000028;
-  --title-color: #db00ff;
-  --accent-color: #ff0070;
   --rec-decor-visibility: visible;
   --section__title: #ff0070;
   --section__article-text: #f1b2ce;
@@ -16,7 +12,7 @@
   --menu-color-hover: #ff007066;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background-image: url("../images/cover-image-dark.png");
     --background-color: #000028;
@@ -30,4 +26,4 @@
     --menu-color: #FF0070;
     --menu-color-hover: #ff007066;
   }
-}
+} */
