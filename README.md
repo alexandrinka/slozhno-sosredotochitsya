@@ -1,1 +1,1 @@
-Ссылка на репозиторий: [https://github.com/alexandrinka/slozhno-sosredotochitsya](https://github.com/alexandrinka/slozhno-sosredotochitsya)
+[Ссылка на репозиторий](https://github.com/alexandrinka/slozhno-sosredotochitsya.git)
