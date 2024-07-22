@@ -61,7 +61,7 @@
 
 .header__theme-menu-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 70px);
+  grid-template-columns: repeat(3, minmax(min-content, max-content));
   gap: 10px;
   justify-content: center;
 }
@@ -160,7 +160,6 @@
 
 .section__title {
   color: var(--section__title);
-  font-size: 18px;
 }
 
 .section__title-what {
@@ -169,7 +168,6 @@
 }
 
 .section__article-title {
-  font-size: 18px;
   margin-block-end: 10px;
 }
 
@@ -179,6 +177,10 @@
 
 .title-light {
   font-weight: 400;
+}
+
+.title-size {
+  font-size: 18px;
 }
 
 .section__articles-list_what,
